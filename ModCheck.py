@@ -84,7 +84,6 @@ class PropRepr():
                 t1 = t1 & self.KB_conv(i1,d)
             for i2 in al4.split(","):
                 t2 = t2 & self.KB_conv(i2,d)
-#            print("t1 = ",t1,"t2 = ",t2 ,"d = ",d)
             if t1:
                 if not t2:
                     kl=0
